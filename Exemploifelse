@@ -1,0 +1,11 @@
+//Exercício que verifica o níivel de conhecimento da programação com base nos anos de experiência
+
+public class ExemploWhile2 {
+	public static void main (String[] args){
+	   int cont = 1;
+	   do {
+	   		System.out.println("Contadora: " + cont);
+	   		cont++;
+	   } while (cont < 6);
+	}
+}
